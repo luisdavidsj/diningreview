@@ -1,0 +1,12 @@
+2025-03-03 15:50:12.504495-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "INSERT INTO [*]USER (ID, DISPLAYNAME, CITY, STATE, ZIPCODE, PEANUTALLERGY, EGGALLERGY, DAIRYALLERGY) VALUES (1, 'Luis', 'Durango', '34000', false, false, false)"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO [*]USER (ID, DISPLAYNAME, CITY, STATE, ZIPCODE, PEANUTALLERGY, EGGALLERGY, DAIRYALLERGY) VALUES (1, 'Luis', 'Durango', '34000', false, false, false)"; expected "identifier"; SQL statement:
+INSERT INTO USER (ID, DISPLAYNAME, CITY, STATE, ZIPCODE, PEANUTALLERGY, EGGALLERGY, DAIRYALLERGY) VALUES (1, 'Luis', 'Durango', '34000', false, false, false) [42001-232]
+2025-03-03 16:35:20.082242-06:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "DININGREVIEWDB" no encontrada
+Table "DININGREVIEWDB" not found; SQL statement:
+SELECT * FROM diningreviewdb [42102-232]
+2025-03-03 22:23:07.901553-06:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "[*]SERESTAURANT LECT * FROM RESTAURANT"; se esperaba "SAVEPOINT, SCRIPT, SHUTDOWN"
+Syntax error in SQL statement "[*]SERESTAURANT LECT * FROM RESTAURANT"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SERESTAURANT LECT * FROM RESTAURANT [42001-232]
